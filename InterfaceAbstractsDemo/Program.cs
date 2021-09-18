@@ -14,6 +14,7 @@ namespace InterfaceAbstractsDemo
             //BaseCustomerManager customerManager = new SturbuckCustomerManager();
             customerManager.Save(new Entities.Customer { DateOfBirth = new DateTime(2001, 1, 1),FirstName = "Sefa", LastName = "Çakır",NationalityId = "10101010100" });
             Console.WriteLine();
+        
         }
     }
 }
